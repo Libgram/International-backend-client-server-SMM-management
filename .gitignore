@@ -15,3 +15,5 @@ yarn-error.log
 /.idea
 /.vscode
 /config/debugbar.php
+.phpstorm.meta.php
+_ide_helper.php

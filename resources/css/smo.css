@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-
 ::-webkit-scrollbar-track{background:#f5f5f5}
 ::-webkit-scrollbar{width:10px;height:10px}
 ::-webkit-scrollbar-thumb{border-radius:2px;background-color:#ccc}
@@ -89,7 +87,7 @@ h1,h2,h3,h4,h5,h5,p{font-family:'Inter',sans-serif!important}
 .social-icon_britix{color:#fff;background:#25bbff}
 .social-icon.social-icon_sberbank_id_icon {background:#efefef;width: 100px;}
 .social-icon_sberbank_id_icon:hover {opacity: .9;}
-.fa-sberbank_id_icon { width: 90%; height: 40px; background: url(/assets/img/logo-sberbank.svg) no-repeat center center / contain;}
+.fa-sberbank_id_icon { width: 90%; height: 40px; background: url(/resources/assets/img/logo-sberbank.svg) no-repeat center center / contain;}
 .header{z-index:999;background:#fff;box-shadow:0 10px 20px 0 rgba(119,123,140,.12);flex:0 0 auto}
 .sticky{position:sticky;top:25px;z-index:999}
 .top-logo{height:30px}
@@ -154,29 +152,29 @@ h1,h2,h3,h4,h5,h5,p{font-family:'Inter',sans-serif!important}
 .side-block__title{font-size:16px;font-weight:600;margin:-15px -15px 15px;padding:15px 15px 15px 31px;background:#fafafa;border-bottom:1px solid #eee}
 .nav-icon{display:block;width:16px;height:16px;margin-right:10px}
 .nav-icon__lg{width:50px;height:50px;margin:0 auto}
-.nav-icon_instagram,.nav-icon_inst{background:url(/assets/img/social-icons/instagram.png) no-repeat center center / 100%}
-.nav-icon_inst--a{background:url(/assets/img/social-icons/a-inst.svg) no-repeat center center / 100%}
-.nav-icon_vk,.nav-icon_vkontakte{background:url(/assets/img/social-icons/vk.png) no-repeat center center / 100%}
-.nav-icon_youtube,.nav-icon_yt{background:url(/assets/img/social-icons/youtube.png) no-repeat center center / 100%}
-.nav-icon_telegram,.nav-icon_tg{background:url(/assets/img/social-icons/telegram.png) no-repeat center center / 100%}
-.nav-icon_ok,.nav-icon_odnoklassniki{background:url(/assets/img/social-icons/ok.png) no-repeat center center / 100%}
-.nav-icon_facebook,.nav-icon_fb{background:url(/assets/img/social-icons/facebook.png) no-repeat center center / 100%}
-.nav-icon_fb--a{background:url(/assets/img/social-icons/a-fb.svg) no-repeat center center / 100%}
-.nav-icon_twitter,.nav-icon_tw{background:url(/assets/img/social-icons/twitter.png) no-repeat center center / 100%}
-.nav-icon_gplus{background:url(/assets/img/social-icons/gplus.png) no-repeat center center / 100%}
-.nav-icon_mymir,.nav-icon_mymail,.nav-icon_mm{background:url(/assets/img/social-icons/mymir.png) no-repeat center center / 100%}
-.nav-icon_askfm,.nav-icon_ask{background:url(/assets/img/social-icons/askfm.png) no-repeat center center / 100%}
-.nav-icon_twitch,.nav-icon_twh{background:url(/assets/img/social-icons/twitch.png) no-repeat center center / 100%}
-.nav-icon_itunes,.nav-icon_it{background:url(/assets/img/social-icons/itunes.png) no-repeat center center / 100%}
-.nav-icon_market,.nav-icon_apps,.nav-icon_app{background:url(/assets/img/social-icons/market.png) no-repeat center center / 100%}
-.nav-icon_tiktok,.nav-icon_tt{background:url(/assets/img/social-icons/tiktok.png) no-repeat center center / 100%}
-.nav-icon_technical{background:url(/assets/img/social-icons/technical.png) no-repeat center center / 100%}
-.nav-icon_website  {background:url(/assets/img/social-icons/web-site.svg) no-repeat center center / 100%}
-.nav-icon_pinterest  {background:url(/assets/img/social-icons/pinterest.svg) no-repeat center center / 100%}
-.nav-icon_likee  {background:url(/assets/img/social-icons/likee.svg) no-repeat center center / 120%}
-.nav-icon_spotify  {background:url(/assets/img/social-icons/spotify.svg) no-repeat center center / 100%}
-.nav-icon_clubhouse  {background:url(/assets/img/social-icons/clubhouse.png) no-repeat center center / 100%}
-.nav-icon_rutube  {background:url(/assets/img/social-icons/rutube.png) no-repeat center center / 100%}
+.nav-icon_instagram,.nav-icon_inst{background:url(/resources/assets/img/social-icons/instagram.png) no-repeat center center / 100%}
+.nav-icon_inst--a{background:url(/resources/assets/img/social-icons/a-inst.svg) no-repeat center center / 100%}
+.nav-icon_vk,.nav-icon_vkontakte{background:url(/resources/assets/img/social-icons/vk.png) no-repeat center center / 100%}
+.nav-icon_youtube,.nav-icon_yt{background:url(/resources/assets/img/social-icons/youtube.png) no-repeat center center / 100%}
+.nav-icon_telegram,.nav-icon_tg{background:url(/resources/assets/img/social-icons/telegram.png) no-repeat center center / 100%}
+.nav-icon_ok,.nav-icon_odnoklassniki{background:url(/resources/assets/img/social-icons/ok.png) no-repeat center center / 100%}
+.nav-icon_facebook,.nav-icon_fb{background:url(/resources/assets/img/social-icons/facebook.png) no-repeat center center / 100%}
+.nav-icon_fb--a{background:url(/resources/assets/img/social-icons/a-fb.svg) no-repeat center center / 100%}
+.nav-icon_twitter,.nav-icon_tw{background:url(/resources/assets/img/social-icons/twitter.png) no-repeat center center / 100%}
+.nav-icon_gplus{background:url(/resources/assets/img/social-icons/gplus.png) no-repeat center center / 100%}
+.nav-icon_mymir,.nav-icon_mymail,.nav-icon_mm{background:url(/resources/assets/img/social-icons/mymir.png) no-repeat center center / 100%}
+.nav-icon_askfm,.nav-icon_ask{background:url(/resources/assets/img/social-icons/askfm.png) no-repeat center center / 100%}
+.nav-icon_twitch,.nav-icon_twh{background:url(/resources/assets/img/social-icons/twitch.png) no-repeat center center / 100%}
+.nav-icon_itunes,.nav-icon_it{background:url(/resources/assets/img/social-icons/itunes.png) no-repeat center center / 100%}
+.nav-icon_market,.nav-icon_apps,.nav-icon_app{background:url(/resources/assets/img/social-icons/market.png) no-repeat center center / 100%}
+.nav-icon_tiktok,.nav-icon_tt{background:url(/resources/assets/img/social-icons/tiktok.png) no-repeat center center / 100%}
+.nav-icon_technical{background:url(/resources/assets/img/social-icons/technical.png) no-repeat center center / 100%}
+.nav-icon_website  {background:url(/resources/assets/img/social-icons/web-site.svg) no-repeat center center / 100%}
+.nav-icon_pinterest  {background:url(/resources/assets/img/social-icons/pinterest.svg) no-repeat center center / 100%}
+.nav-icon_likee  {background:url(/resources/assets/img/social-icons/likee.svg) no-repeat center center / 120%}
+.nav-icon_spotify  {background:url(/resources/assets/img/social-icons/spotify.svg) no-repeat center center / 100%}
+.nav-icon_clubhouse  {background:url(/resources/assets/img/social-icons/clubhouse.png) no-repeat center center / 100%}
+.nav-icon_rutube  {background:url(/resources/assets/img/social-icons/rutube.png) no-repeat center center / 100%}
 .nav-item{position:relative}
 .header .nav-item{font-weight:400}
 .header .nav-item .current_page{font-weight:500}
@@ -436,7 +434,7 @@ h1,h2,h3,h4,h5,h5,p{font-family:'Inter',sans-serif!important}
 .norton-image{width:150px;margin-right:25px}
 .price-list__name{font-weight:500}
 .price-list__img{width:30px;margin-right:25px}
-.header-bar{position:relative;padding:5vh 0;background:url(https://bar.smoservice.media/images/bg.png) no-repeat center center / cover}
+.header-bar{position:relative;padding:5vh 0;background:url(/resources/assets/img/bg.png) no-repeat center center / cover}
 .header-bar h1{font-size:40px;font-weight:700;padding-bottom:25px;text-align:center;text-shadow:0 1px 0 #fff}
 .header-bar h1 span{font-weight:700}
 .header-bar .skrin{width:100%;max-height:400px;border-radius:2px;box-shadow:0 0 50px rgba(0,0,0,.2);object-fit:cover}
@@ -530,7 +528,7 @@ h1,h2,h3,h4,h5,h5,p{font-family:'Inter',sans-serif!important}
 .border-rainbow-4{border-color:#e65100}
 .footer{padding:25px 0 0;background:#fff;flex:0 0 auto}
 .f-logotype{text-align:center}
-.footer-logo{background: url(../img/logo-mini-dark.svg) no-repeat center center / contain;height: 100px;width:100px;margin: 0 auto 11px auto;}
+.footer-logo{background: url(/resources/assets/img/logo-mini-dark.svg) no-repeat center center / contain;height: 100px;width:100px;margin: 0 auto 11px auto;}
 .copyright{color:#666}
 .f-nav__title{margin-bottom:15px;font-size:14px;font-weight:600;text-transform:uppercase}
 .f-nav__item{margin-bottom:10px}
@@ -543,15 +541,15 @@ h1,h2,h3,h4,h5,h5,p{font-family:'Inter',sans-serif!important}
 .f-payment{margin-top:15px;padding:10px 0;border-top:1px solid #f1f1f1;border-radius:2px 7px 0 0;background:#fdfdfd}
 .f-payment__icon{width:36px;height:30px;transition:all .2s ease}
 .f-payment__icon:hover{filter:grayscale(0)}
-.f-payment__icon_master-card{background:url(/assets/img/payments/master-card.svg) no-repeat center center / 100%}
-.f-payment__icon_visa{background:url(/assets/img/payments/visa.svg) no-repeat center center / 100%}
-.f-payment__icon_alpha{background:url(/assets/img/payments/alpha.svg) no-repeat center center / 70%}
-.f-payment__icon_sberbank{background:url(/assets/img/payments/sber.svg) no-repeat center center / 70%}
-.f-payment__icon_webmoney{background:url(/assets/img/payments/wm.svg) no-repeat center center / 70%}
-.f-payment__icon_yandex{background:url(/assets/img/payments/ym.svg) no-repeat center center / 70%}
-.f-payment__icon_qiwi{background:url(/assets/img/payments/qiwi.svg) no-repeat center center / 70%}
-.f-payment__icon_paypal{background:url(/assets/img/payments/paypal.svg) no-repeat center center / 70%}
-.f-payment__icon_privat{margin-right:60px;background:url(/assets/img/payments/privat.png) no-repeat center center / 70%}
+.f-payment__icon_master-card{background:url(/resources/assets/img/payments/master-card.svg) no-repeat center center / 100%}
+.f-payment__icon_visa{background:url(/resources/assets/img/payments/visa.svg) no-repeat center center / 100%}
+.f-payment__icon_alpha{background:url(/resources/assets/img/payments/alpha.svg) no-repeat center center / 70%}
+.f-payment__icon_sberbank{background:url(/resources/assets/img/payments/sber.svg) no-repeat center center / 70%}
+.f-payment__icon_webmoney{background:url(/resources/assets/img/payments/wm.svg) no-repeat center center / 70%}
+.f-payment__icon_yandex{background:url(/resources/assets/img/payments/ym.svg) no-repeat center center / 70%}
+.f-payment__icon_qiwi{background:url(/resources/assets/img/payments/qiwi.svg) no-repeat center center / 70%}
+.f-payment__icon_paypal{background:url(/resources/assets/img/payments/paypal.svg) no-repeat center center / 70%}
+.f-payment__icon_privat{margin-right:60px;background:url(/resources/assets/img/payments/privat.png) no-repeat center center / 70%}
 .norton-image{width:150px;margin-right:25px}
 .cat-description h1,.cat-description h2,.cat-description h3,.cat-description h4,.sentence__brif h1,.sentence__brif h2,.sentence__brif h3,.sentence__brif h4,.full-news h1,.full-news h2,.full-news h3,.full-news h4{font-size:15px;font-weight:600;position:relative;margin:25px 0;padding-bottom:15px;text-align:left;text-transform:uppercase;border-bottom:1px solid #f1f1f1}
 .cat-description ul,.sentence__brif ul,.full-news ul{padding-bottom:25px;list-style:none}
@@ -668,7 +666,7 @@ div#wiki-post div.wiki-post-header{font-size:1em;font-weight:700;margin-bottom:5
 .uhero-title--xl {font-weight: 900;font-size: 45px;}
 .uhero-title--xl span {display: block; font-size: 40px;}
 .uhero-title.verification-icon{position:relative}
-.uhero-title.verification-icon:before{position:absolute;top:-20px;right:-15px;width:90px;height:90px;content:'';background:url(https://smoservice.media/assets/img/social-icons/check.png) center center / 100%}
+.uhero-title.verification-icon:before{position:absolute;top:-20px;right:-15px;width:90px;height:90px;content:'';background:url(/resources/assets/img/social-icons/check.png) center center / 100%}
 .uhero-text{font-weight:400;margin:15px 0 25px}
 .uhero-text__big{font-size:17px;font-weight:400;margin-top:-10px;margin-bottom:25px}
 .uhero-image .img-fluid{width:100%;height:400px;object-fit:contain}
@@ -768,7 +766,7 @@ div#wiki-post div.wiki-post-header{font-size:1em;font-weight:700;margin-bottom:5
 .light-theme{display:none!important}
 .dark-theme{display:block!important}
 .dark-theme:hover{color:#444;background:#f1f1f1}
-.page-error{max-width:400px;height:371px;margin:auto;background:url(/assets/img/404-w.png) no-repeat center center / contain}
+.page-error{max-width:400px;height:371px;margin:auto;background:url(/resources/assets/img/404-w.png) no-repeat center center / contain}
 .appbot__img{width:100%;max-height:520px;object-fit:cover;border-radius:13px}
 .appbot-page .ucard[aria-expanded=true]{background:rgba(108,117,125,0.1);padding:17px}
 .appbot-page .ucard[aria-expanded=false]{padding:17px}
@@ -1057,7 +1055,7 @@ span.modern-page-current {
     ::-webkit-scrollbar{width:10px;height:10px}
     ::-webkit-scrollbar-thumb{border-radius:2px;background-color:#252525}
     .btn{background:#1a1a1a}
-    .btn-primary{background:#ff9800}
+    .btn-primary{background:#ff9800 !important;}
     a.bg-light:hover,a.bg-light:focus,button.bg-light:hover,button.bg-light:focus{background-color:#181818!important}
     .dropdown-item:hover{background-color:#121212;color:#ccc}
     .aside__mobile .sidebar .nav-link{border-color:#1e1e1e}
@@ -1154,15 +1152,15 @@ span.modern-page-current {
     .header-bar{background:#111}
     .ucard-line:after,.ucard-line:before{background:#1e1e1e}
     .custom-control-label::before{background-color:#1e1e1e;border-color:#1e1e1e}
-    .header-logo__item{background:url(../img/logo-white.svg) no-repeat center center / contain}
-    .footer-logo{background:url(../img/logo-mini-white.svg) no-repeat center center / contain;height:100px;width:100px;margin:0 auto 11px}
+    .header-logo__item{background:url(/resources/assets/img/logo-white.svg) no-repeat center center / contain}
+    .footer-logo{background:url(/resources/assets/img/logo-mini-white.svg) no-repeat center center / contain;height:100px;width:100px;margin:0 auto 11px}
     @media screen and (max-width: 992px) {
         .table-price td{border-bottom:1px solid #1e1e1e}
     }
     @media (max-width: 991px) {
         .catalog-mobile__title{background-color:#171717!important}
         .navbar-collapse{background-color:#121212; padding: 0;}
-        .header-logo__item{background:url(../img/logo-mini-white.svg) no-repeat center center / contain}
+        .header-logo__item{background:url(/resources/assets/img/logo-mini-white.svg) no-repeat center center / contain}
     }
     .navbar-collapse.show::after{background-color:rgba(18,18,18,0.58);z-index:-3}
     .bx-catalog-tab-list li.active a,.bx-catalog-tab-list li.active>span{background:transparent;line-height:1;height:auto;color:#151618;position:relative;bottom:-2px}

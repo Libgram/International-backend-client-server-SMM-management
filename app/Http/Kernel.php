@@ -48,6 +48,10 @@ class Kernel extends HttpKernel
         'admin'=> [
             OnlyAdmins::class,
         ],
+
+        'customer' => [
+
+        ],
     ];
 
     /**

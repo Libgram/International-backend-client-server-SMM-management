@@ -24,11 +24,11 @@
                 <li class="nav-top__item d-none d-lg-block"><a href="https://play.google.com/store/apps/details?id=com.mediaboss.smoservice" target="_blank" class="nav-top__link">Андроид приложение</a></li>
                 <li class="nav-top__item d-none d-lg-block"><a href="/pages/affiliate_program/" class="nav-top__link">Партнерская программа</a></li>
                 <!--<li class="nav-top__item"><a href="/support/" class="nav-top__link">Поддержка</a></li>-->
-                <li class="nav-top__item"><a href="/faq.php" class="nav-top__link"><i class="far fa-info-circle mr-2"></i>Помощь</a></li>
+                <li class="nav-top__item"><a href="/faq.php" class="nav-top__link"><i class="fas fa-info-circle mr-2"></i>Помощь</a></li>
 
                 <!--li class="nav-top__item d-none d-sm-block dark-theme">
     <a href="#" class="nav-top__link"  onclick="location.href='?dark=on'">
-        <i class="far fa-lightbulb mr-2"></i> Тёмная тема
+        <i class="fas fa-lightbulb mr-2"></i> Тёмная тема
     </a>
 </li>-->
 
@@ -43,7 +43,7 @@
             <div class="header-main">
                 <div class="header-logo">
                     <a href="/">
-                        <!--img src="/assets/img/top_logo.png" class="header-logo-desktop" alt="SMOService">
+                        <!--img src="@/resources/assets/img/top_logo.png" class="header-logo-desktop" alt="SMOService">
                         <img src="https://smoservice.media/assets/img/footer-logo.png" class="header-logo-mobile" alt="SMOService mobile"-->
                         <div class="header-logo__item"></div>
                     </a>
@@ -80,7 +80,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-igtv/" class="drop-box__sublink">
-                                                    <i class="far fa-play mr-3"></i> IGTV                        </a>
+                                                    <i class="fas fa-play mr-3"></i> IGTV                        </a>
                                             </li>
 
 
@@ -88,7 +88,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-followers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -96,7 +96,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -104,7 +104,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-views-video/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры                        </a>
                                             </li>
 
 
@@ -112,7 +112,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-live-video/" class="drop-box__sublink">
-                                                    <i class="far fa-bullhorn mr-3"></i> Трансляции                        </a>
+                                                    <i class="fas fa-bullhorn mr-3"></i> Трансляции                        </a>
                                             </li>
 
 
@@ -120,7 +120,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-storys/" class="drop-box__sublink">
-                                                    <i class="far fa-history mr-3"></i> Истории                        </a>
+                                                    <i class="fas fa-history mr-3"></i> Истории                        </a>
                                             </li>
 
 
@@ -129,7 +129,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-comments/" class="drop-box__sublink">
-                                                    <i class="far fa-comments-alt mr-3"></i> Комментарии                        </a>
+                                                    <i class="fas fa-comments-alt mr-3"></i> Комментарии                        </a>
                                             </li>
 
 
@@ -137,7 +137,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-saved/" class="drop-box__sublink">
-                                                    <i class="far fa-star mr-3"></i> Сохранения                        </a>
+                                                    <i class="fas fa-star mr-3"></i> Сохранения                        </a>
                                             </li>
 
 
@@ -145,7 +145,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-impressions/" class="drop-box__sublink">
-                                                    <i class="far fa-share-alt mr-3"></i> Охват и показы                        </a>
+                                                    <i class="fas fa-share-alt mr-3"></i> Охват и показы                        </a>
                                             </li>
 
 
@@ -153,7 +153,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-advertising/" class="drop-box__sublink">
-                                                    <i class="far fa-ad mr-3"></i> Реклама                        </a>
+                                                    <i class="fas fa-ad mr-3"></i> Реклама                        </a>
                                             </li>
 
 
@@ -162,7 +162,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> VIP раскрутка                        </a>
+                                                    <i class="fas fa-key mr-3"></i> VIP раскрутка                        </a>
                                             </li>
 
 
@@ -170,7 +170,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/instagram/instagram-pack/" class="drop-box__sublink">
-                                                    <i class="far fa-box-full mr-3"></i> Наборы                        </a>
+                                                    <i class="fas fa-box-full mr-3"></i> Наборы                        </a>
                                             </li>
 
 
@@ -191,7 +191,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-subscribers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -199,7 +199,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-subscribers-friends/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Заявки в друзья                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Заявки в друзья                        </a>
                                             </li>
 
 
@@ -207,7 +207,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -215,7 +215,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-repost/" class="drop-box__sublink">
-                                                    <i class="far fa-share-alt mr-3"></i> Репосты                        </a>
+                                                    <i class="fas fa-share-alt mr-3"></i> Репосты                        </a>
                                             </li>
 
 
@@ -223,7 +223,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-comments/" class="drop-box__sublink">
-                                                    <i class="far fa-comments-alt mr-3"></i> Комментарии                        </a>
+                                                    <i class="fas fa-comments-alt mr-3"></i> Комментарии                        </a>
                                             </li>
 
 
@@ -232,7 +232,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-poll-vote/" class="drop-box__sublink">
-                                                    <i class="far fa-star mr-3"></i> Опросы                        </a>
+                                                    <i class="fas fa-star mr-3"></i> Опросы                        </a>
                                             </li>
 
 
@@ -240,7 +240,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-activ-statistics/" class="drop-box__sublink">
-                                                    <i class="far fa-chart-line mr-3"></i> Активность                        </a>
+                                                    <i class="fas fa-chart-line mr-3"></i> Активность                        </a>
                                             </li>
 
 
@@ -248,7 +248,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-pack/" class="drop-box__sublink">
-                                                    <i class="far fa-sync mr-3"></i> Подписка                        </a>
+                                                    <i class="fas fa-sync mr-3"></i> Подписка                        </a>
                                             </li>
 
 
@@ -256,7 +256,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vk-plays/" class="drop-box__sublink">
-                                                    <i class="far fa-list-music mr-3"></i> Прослушивание                        </a>
+                                                    <i class="fas fa-list-music mr-3"></i> Прослушивание                        </a>
                                             </li>
 
 
@@ -264,7 +264,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vkontakte-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> VIP раскрутка                        </a>
+                                                    <i class="fas fa-key mr-3"></i> VIP раскрутка                        </a>
                                             </li>
 
 
@@ -272,7 +272,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/vkontakte/vk-pack/" class="drop-box__sublink">
-                                                    <i class="far fa-box-full mr-3"></i> Наборы                        </a>
+                                                    <i class="fas fa-box-full mr-3"></i> Наборы                        </a>
                                             </li>
 
 
@@ -293,7 +293,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-subscribers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -301,7 +301,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-video-views/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры с сайтов                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры с сайтов                        </a>
                                             </li>
 
 
@@ -309,7 +309,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-retention-views/" class="drop-box__sublink">
-                                                    <i class="far fa-signal-alt mr-3"></i> Просмотры с удержанием                        </a>
+                                                    <i class="fas fa-signal-alt mr-3"></i> Просмотры с удержанием                        </a>
                                             </li>
 
 
@@ -317,7 +317,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-geo-views/" class="drop-box__sublink">
-                                                    <i class="far fa-globe-europe mr-3"></i> Просмотры по странам                        </a>
+                                                    <i class="fas fa-globe-europe mr-3"></i> Просмотры по странам                        </a>
                                             </li>
 
 
@@ -325,7 +325,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-advertising-views/" class="drop-box__sublink">
-                                                    <i class="far fa-ad mr-3"></i> Просмотры с рекламы                        </a>
+                                                    <i class="fas fa-ad mr-3"></i> Просмотры с рекламы                        </a>
                                             </li>
 
 
@@ -333,7 +333,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -341,7 +341,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-dislikes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-down mr-3"></i> Дизлайки                        </a>
+                                                    <i class="fas fa-thumbs-down mr-3"></i> Дизлайки                        </a>
                                             </li>
 
 
@@ -350,7 +350,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-comments/" class="drop-box__sublink">
-                                                    <i class="far fa-comments-alt mr-3"></i> Комментарии                        </a>
+                                                    <i class="fas fa-comments-alt mr-3"></i> Комментарии                        </a>
                                             </li>
 
 
@@ -358,7 +358,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-repost/" class="drop-box__sublink">
-                                                    <i class="far fa-share-alt mr-3"></i> Репосты                        </a>
+                                                    <i class="fas fa-share-alt mr-3"></i> Репосты                        </a>
                                             </li>
 
 
@@ -366,7 +366,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-live-broadcast/" class="drop-box__sublink">
-                                                    <i class="far fa-podcast mr-3"></i> Трансляция                        </a>
+                                                    <i class="fas fa-podcast mr-3"></i> Трансляция                        </a>
                                             </li>
 
 
@@ -374,7 +374,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-pack/" class="drop-box__sublink">
-                                                    <i class="far fa-box-full mr-3"></i> Наборы                        </a>
+                                                    <i class="fas fa-box-full mr-3"></i> Наборы                        </a>
                                             </li>
 
 
@@ -382,7 +382,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-top-trending/" class="drop-box__sublink">
-                                                    <i class="far fa-star mr-3"></i> Вывод в тренды                        </a>
+                                                    <i class="fas fa-star mr-3"></i> Вывод в тренды                        </a>
                                             </li>
 
 
@@ -390,7 +390,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-watchtime-video/" class="drop-box__sublink">
-                                                    <i class="far fa-hour mr-3"></i> Часы просмотров                        </a>
+                                                    <i class="fas fa-hour mr-3"></i> Часы просмотров                        </a>
                                             </li>
 
 
@@ -398,7 +398,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/youtube/youtube-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> VIP раскрутка                        </a>
+                                                    <i class="fas fa-key mr-3"></i> VIP раскрутка                        </a>
                                             </li>
 
 
@@ -419,7 +419,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/tiktok/tiktok-views/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры                        </a>
                                             </li>
 
 
@@ -427,7 +427,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/tiktok/tiktok-followers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -435,7 +435,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/tiktok/tiktok-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -457,7 +457,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/telegram-subscribers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики на канал                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики на канал                        </a>
                                             </li>
 
 
@@ -465,7 +465,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/telegram-groupmember/" class="drop-box__sublink">
-                                                    <i class="far fa-user-plus mr-3"></i> Участники в чат                        </a>
+                                                    <i class="fas fa-user-plus mr-3"></i> Участники в чат                        </a>
                                             </li>
 
 
@@ -473,7 +473,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/telegram-postviews/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры записей                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры записей                        </a>
                                             </li>
 
 
@@ -481,7 +481,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/polls/" class="drop-box__sublink">
-                                                    <i class="far fa-star mr-3"></i> Опросы                        </a>
+                                                    <i class="fas fa-star mr-3"></i> Опросы                        </a>
                                             </li>
 
 
@@ -489,7 +489,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/reaktsii/" class="drop-box__sublink">
-                                                    <i class="far fa-star mr-3"></i> Реакции                        </a>
+                                                    <i class="fas fa-star mr-3"></i> Реакции                        </a>
                                             </li>
 
 
@@ -497,7 +497,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/telegram-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> VIP раскрутка                        </a>
+                                                    <i class="fas fa-key mr-3"></i> VIP раскрутка                        </a>
                                             </li>
 
 
@@ -507,7 +507,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/telegram/telegram-pack/" class="drop-box__sublink">
-                                                    <i class="far fa-box-full mr-3"></i> Наборы                        </a>
+                                                    <i class="fas fa-box-full mr-3"></i> Наборы                        </a>
                                             </li>
 
 
@@ -528,7 +528,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/rutube/rutube-subscribers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -536,7 +536,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/rutube/rutube-video-views/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры                        </a>
                                             </li>
 
 
@@ -544,7 +544,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/rutube/rutube-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -565,7 +565,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/odnoklassniki-group/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Участники в группу                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Участники в группу                        </a>
                                             </li>
 
 
@@ -573,7 +573,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/odnoklassniki-friends/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Заявки в друзья                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Заявки в друзья                        </a>
                                             </li>
 
 
@@ -581,7 +581,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/odnoklassniki-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -589,7 +589,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/odnoklassniki-polls-contests/" class="drop-box__sublink">
-                                                    <i class="far fa-bullhorn mr-3"></i> Опросы и конкурсы                        </a>
+                                                    <i class="fas fa-bullhorn mr-3"></i> Опросы и конкурсы                        </a>
                                             </li>
 
 
@@ -597,7 +597,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/odnoklassniki-repost/" class="drop-box__sublink">
-                                                    <i class="far fa-share-alt mr-3"></i> Репосты                        </a>
+                                                    <i class="fas fa-share-alt mr-3"></i> Репосты                        </a>
                                             </li>
 
 
@@ -605,7 +605,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/odnoklassniki-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> Под ключ                        </a>
+                                                    <i class="fas fa-key mr-3"></i> Под ключ                        </a>
                                             </li>
 
 
@@ -613,7 +613,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/odnoklassniki/ok-social-signals/" class="drop-box__sublink">
-                                                    <i class="far fa-signal-stream mr-3"></i> Социальные сигналы                        </a>
+                                                    <i class="fas fa-signal-stream mr-3"></i> Социальные сигналы                        </a>
                                             </li>
 
 
@@ -634,7 +634,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-activ-statistics/" class="drop-box__sublink">
-                                                    <i class="far fa-chart-line mr-3"></i> Активность                        </a>
+                                                    <i class="fas fa-chart-line mr-3"></i> Активность                        </a>
                                             </li>
 
 
@@ -642,7 +642,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-comments/" class="drop-box__sublink">
-                                                    <i class="far fa-comments-alt mr-3"></i> Комментарии                        </a>
+                                                    <i class="fas fa-comments-alt mr-3"></i> Комментарии                        </a>
                                             </li>
 
 
@@ -650,7 +650,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-video-views/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры видео                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры видео                        </a>
                                             </li>
 
 
@@ -658,7 +658,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/fb-social-signals/" class="drop-box__sublink">
-                                                    <i class="far fa-signal-stream mr-3"></i> Социальные сигналы                        </a>
+                                                    <i class="fas fa-signal-stream mr-3"></i> Социальные сигналы                        </a>
                                             </li>
 
 
@@ -666,7 +666,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-fanpage-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-user-plus mr-3"></i> Подписчики на FanPage                        </a>
+                                                    <i class="fas fa-user-plus mr-3"></i> Подписчики на FanPage                        </a>
                                             </li>
 
 
@@ -674,7 +674,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-post-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-heart mr-3"></i> Лайки на посты                        </a>
+                                                    <i class="fas fa-heart mr-3"></i> Лайки на посты                        </a>
                                             </li>
 
 
@@ -682,7 +682,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-group/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Участники в группу                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Участники в группу                        </a>
                                             </li>
 
 
@@ -690,7 +690,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-subscribers-friends/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Заявки в друзья                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Заявки в друзья                        </a>
                                             </li>
 
 
@@ -698,7 +698,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/facebook/facebook-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> VIP раскрутка                        </a>
+                                                    <i class="fas fa-key mr-3"></i> VIP раскрутка                        </a>
                                             </li>
 
 
@@ -719,7 +719,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitter/twitter-video-views/" class="drop-box__sublink">
-                                                    <i class="far fa-play mr-3"></i> Видео                        </a>
+                                                    <i class="fas fa-play mr-3"></i> Видео                        </a>
                                             </li>
 
 
@@ -727,7 +727,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitter/twitter-likes/" class="drop-box__sublink">
-                                                    <i class="far fa-thumbs-up mr-3"></i> Лайки                        </a>
+                                                    <i class="fas fa-thumbs-up mr-3"></i> Лайки                        </a>
                                             </li>
 
 
@@ -735,7 +735,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitter/twitter-media-piar/" class="drop-box__sublink">
-                                                    <i class="far fa-key mr-3"></i> Под ключ                        </a>
+                                                    <i class="fas fa-key mr-3"></i> Под ключ                        </a>
                                             </li>
 
 
@@ -743,7 +743,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitter/twitter-retweets/" class="drop-box__sublink">
-                                                    <i class="far fa-share-alt mr-3"></i> Репосты                        </a>
+                                                    <i class="fas fa-share-alt mr-3"></i> Репосты                        </a>
                                             </li>
 
 
@@ -751,7 +751,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitter/twitter-subscribers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -772,7 +772,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitch/twitch-subscribers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -780,7 +780,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitch/twitch-channel-views/" class="drop-box__sublink">
-                                                    <i class="far fa-eye mr-3"></i> Просмотры                        </a>
+                                                    <i class="fas fa-eye mr-3"></i> Просмотры                        </a>
                                             </li>
 
 
@@ -788,7 +788,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitch/twitch-live-broadcast/" class="drop-box__sublink">
-                                                    <i class="far fa-podcast mr-3"></i> Трансляция                        </a>
+                                                    <i class="fas fa-podcast mr-3"></i> Трансляция                        </a>
                                             </li>
 
 
@@ -796,7 +796,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/twitch/twitch-followers/" class="drop-box__sublink">
-                                                    <i class="far fa-user-plus mr-3"></i> Фолловеры                        </a>
+                                                    <i class="fas fa-user-plus mr-3"></i> Фолловеры                        </a>
                                             </li>
 
 
@@ -817,7 +817,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/amazon_music/" class="drop-box__sublink">
-                                                    <i class="far fa-itunes-note mr-3"></i> Amazon Music                        </a>
+                                                    <i class="fas fa-itunes-note mr-3"></i> Amazon Music                        </a>
                                             </li>
 
 
@@ -825,7 +825,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/applemusic/" class="drop-box__sublink">
-                                                    <i class="far fa-fab_itunes-note mr-3"></i> Apple Music                        </a>
+                                                    <i class="fas fa-fab_itunes-note mr-3"></i> Apple Music                        </a>
                                             </li>
 
 
@@ -833,7 +833,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/boom/" class="drop-box__sublink">
-                                                    <i class="far fa-signal-alt mr-3"></i> Boom                        </a>
+                                                    <i class="fas fa-signal-alt mr-3"></i> Boom                        </a>
                                             </li>
 
 
@@ -841,7 +841,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/shazam/" class="drop-box__sublink">
-                                                    <i class="far fa-microphone mr-3"></i> Shazam                        </a>
+                                                    <i class="fas fa-microphone mr-3"></i> Shazam                        </a>
                                             </li>
 
 
@@ -849,7 +849,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/soundcloud/" class="drop-box__sublink">
-                                                    <i class="far fa-fab_soundcloud mr-3"></i> SoundCloud                        </a>
+                                                    <i class="fas fa-fab_soundcloud mr-3"></i> SoundCloud                        </a>
                                             </li>
 
 
@@ -857,7 +857,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/vkmusic/" class="drop-box__sublink">
-                                                    <i class="far fa-list-music mr-3"></i> ВК музыка                        </a>
+                                                    <i class="fas fa-list-music mr-3"></i> ВК музыка                        </a>
                                             </li>
 
 
@@ -865,7 +865,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/itunes/itunes-top-trending/" class="drop-box__sublink">
-                                                    <i class="far fa-fab_itunes mr-3"></i> ТОП чарты iTunes                        </a>
+                                                    <i class="fas fa-fab_itunes mr-3"></i> ТОП чарты iTunes                        </a>
                                             </li>
 
 
@@ -886,7 +886,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/apps/apps-install/" class="drop-box__sublink">
-                                                    <i class="far fa-cloud-download mr-3"></i> Установка приложений                        </a>
+                                                    <i class="fas fa-cloud-download mr-3"></i> Установка приложений                        </a>
                                             </li>
 
 
@@ -907,7 +907,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/pinterest/followers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -915,7 +915,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/pinterest/social-signals/" class="drop-box__sublink">
-                                                    <i class="far fa-signal-stream mr-3"></i> Социальные сигналы                        </a>
+                                                    <i class="fas fa-signal-stream mr-3"></i> Социальные сигналы                        </a>
                                             </li>
 
 
@@ -936,7 +936,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/spotify/spotify-album/" class="drop-box__sublink">
-                                                    <i class="far fa-signal-alt mr-3"></i> Альбомы                        </a>
+                                                    <i class="fas fa-signal-alt mr-3"></i> Альбомы                        </a>
                                             </li>
 
 
@@ -944,7 +944,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/spotify/spotify-pack/" class="drop-box__sublink">
-                                                    <i class="far fa-box-full mr-3"></i> Наборы                        </a>
+                                                    <i class="fas fa-box-full mr-3"></i> Наборы                        </a>
                                             </li>
 
 
@@ -952,7 +952,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/spotify/spotify-playlist/" class="drop-box__sublink">
-                                                    <i class="far fa-list-music mr-3"></i> Плейлисты                        </a>
+                                                    <i class="fas fa-list-music mr-3"></i> Плейлисты                        </a>
                                             </li>
 
 
@@ -960,7 +960,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/spotify/spotify-subscription/" class="drop-box__sublink">
-                                                    <i class="far fa-chart-line mr-3"></i> Подписки                        </a>
+                                                    <i class="fas fa-chart-line mr-3"></i> Подписки                        </a>
                                             </li>
 
 
@@ -968,7 +968,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/spotify/spotify-plays/" class="drop-box__sublink">
-                                                    <i class="far fa-music-alt mr-3"></i> Синглы                        </a>
+                                                    <i class="fas fa-music-alt mr-3"></i> Синглы                        </a>
                                             </li>
 
 
@@ -976,7 +976,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/spotify/spotify-followers/" class="drop-box__sublink">
-                                                    <i class="far fa-users mr-3"></i> Подписчики                        </a>
+                                                    <i class="fas fa-users mr-3"></i> Подписчики                        </a>
                                             </li>
 
 
@@ -997,7 +997,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/website/smi-wikipedia/" class="drop-box__sublink">
-                                                    <i class="far fa-fab_wikipedia-w mr-3"></i> Википедия                        </a>
+                                                    <i class="fas fa-fab_wikipedia-w mr-3"></i> Википедия                        </a>
                                             </li>
 
 
@@ -1006,7 +1006,7 @@
                                             <!-- item -->
                                             <li>
                                                 <a href="/website/website-articles/" class="drop-box__sublink">
-                                                    <i class="far fa-newspaper mr-3"></i> Пресс-релизы                        </a>
+                                                    <i class="fas fa-newspaper mr-3"></i> Пресс-релизы                        </a>
                                             </li>
 
 
@@ -1032,7 +1032,7 @@
                         </div>
                     </form>
                     <div class="navbar-expand-lg d-flex align-items-center">
-                        <a href="/login/" class="navbar-toggler toggler-login ml-3"><i class="far fa-sign-in-alt"></i></a>
+                        <a href="/login/" class="navbar-toggler toggler-login ml-3"><i class="fas fa-sign-in-alt"></i></a>
                         <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#header-navbar" aria-controls="header-navbar" aria-expanded="false"><span class="icon-menu"></span></button>
                     </div>
                 </div>
@@ -1041,7 +1041,7 @@
 
                     <li class="nav-item bg-light dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown__profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="far fa-sign-in-alt mr-2"></i> Войти
+                            <i class="fas fa-sign-in-alt mr-2"></i> Войти
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbar-dropdown__profile">
                             <a class="dropdown-item" href="/login/" rel="nofollow">Авторизация</a>
@@ -1259,9 +1259,9 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 uhero-image d-none d-lg-block">
-                                ​<picture>
-                                    <source srcset="/assets/img/pages/newland/uhero-one.webp" type="image/webp">
-                                    <img alt="SMM продвижение в соцсетях" class="img-fluid"  loading="lazy" data-src="/assets/img/pages/newland/uhero-one.png">
+                                <picture>
+                                    <source srcset="{{ Vite::asset('resources/assets/img/pages/newland/uhero-one.webp') }}" type="image/webp">
+                                    <img alt="SMM продвижение в соцсетях" class="img-fluid"  loading="lazy" data-src="{{ Vite::asset('resources/assets/img/pages/newland/uhero-one.png') }}">
                                 </picture>
                             </div>                          </div>
                     </div>
@@ -1293,9 +1293,9 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 uhero-image d-none d-lg-block">
-                                ​<picture>
-                                    <source srcset="/assets/img/pages/newland/uhero-two.webp" type="image/webp">
-                                    <img alt="Партнерская программа в соцсетях" class="img-fluid" loading="lazy" data-src="/assets/img/pages/newland/uhero-two.png">
+                                <picture>
+                                    <source srcset="{{ Vite::asset('resources/assets/img/pages/newland/uhero-two.webp')}}" type="image/webp">
+                                    <img alt="Партнерская программа в соцсетях" class="img-fluid" loading="lazy" data-src="{{ Vite::asset('resources/assets/img/pages/newland/uhero-two.png')}}">
                                 </picture>
                             </div>
 
@@ -1331,7 +1331,7 @@
                             <div class="col-lg-6 uhero-image d-none d-lg-block">
                                 <picture>
                                     <source srcset="/assets/img/pages/newland/uhero-three.webp" type="image/webp">
-                                    <img alt="Продвижения и раскрутка в Инстаграм" class="img-fluid" loading="lazy" data-src="/assets/img/pages/newland/uhero-three.png">
+                                    <img alt="Продвижения и раскрутка в Инстаграм" class="img-fluid" loading="lazy" data-src="@/resources/assets/img/pages/newland/uhero-three.png">
                                 </picture>
                             </div>                          </div>
                     </div>
@@ -1365,7 +1365,7 @@
                             <div class="col-lg-6 uhero-image d-none d-lg-block">
                                 <picture>
                                     <source srcset="/assets/img/pages/newland/uhero-four.webp" type="image/webp">
-                                    <img alt="Продвижения и раскрутка Ютуб" class="img-fluid" loading="lazy" data-src="/assets/img/pages/newland/uhero-four.png">
+                                    <img alt="Продвижения и раскрутка Ютуб" class="img-fluid" loading="lazy" data-src="@/resources/assets/img/pages/newland/uhero-four.png">
                                 </picture>
                             </div>                          </div>
                     </div>
@@ -1399,7 +1399,7 @@
                             <div class="col-lg-6 uhero-image d-none d-lg-block">
                                 <picture>
                                     <source srcset="/assets/img/pages/newland/uhero-five.webp" type="image/webp">
-                                    <img alt="Скидки и бонусы для клиентов" class="img-fluid" loading="lazy" data-src="/assets/img/pages/newland/uhero-five.png">
+                                    <img alt="Скидки и бонусы для клиентов" class="img-fluid" loading="lazy" data-src="@/resources/assets/img/pages/newland/uhero-five.png">
                                 </picture>
                             </div>                          </div>
                     </div>
@@ -1408,10 +1408,10 @@
 
             </div>
             <a class="carousel-control-prev" href="#uheroCarousel" role="button" data-slide="prev" aria-label="Slide left">
-                <i class="far fa-angle-left"></i>
+                <i class="fas fa-angle-left"></i>
             </a>
             <a class="carousel-control-next" href="#uheroCarousel" role="button" data-slide="next" aria-label="Slide right">
-                <i class="far fa-angle-right"></i>
+                <i class="fas fa-angle-right"></i>
             </a>
         </div>
     </section>
@@ -1500,85 +1500,85 @@
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-igtv/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-play mr-2"></i> IGTV                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-play mr-2"></i> IGTV                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-followers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-views-video/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-live-video/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-bullhorn mr-2"></i> Трансляции                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-bullhorn mr-2"></i> Трансляции                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-storys/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-history mr-2"></i> Истории                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-history mr-2"></i> Истории                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-reports/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-flag mr-2"></i> Жалобы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-flag mr-2"></i> Жалобы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-comments/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-comments-alt mr-2"></i> Комментарии                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-comments-alt mr-2"></i> Комментарии                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-saved/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-star mr-2"></i> Сохранения                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-star mr-2"></i> Сохранения                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-impressions/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-share-alt mr-2"></i> Охват и показы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-share-alt mr-2"></i> Охват и показы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-advertising/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-ad mr-2"></i> Реклама                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-ad mr-2"></i> Реклама                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-verification/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-badge-check mr-2"></i> Верификация                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-badge-check mr-2"></i> Верификация                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> VIP раскрутка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> VIP раскрутка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/instagram/instagram-pack/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-box-full mr-2"></i> Наборы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-box-full mr-2"></i> Наборы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1608,25 +1608,25 @@
 
                                     <li class="nav-item">
                                         <a href="/tiktok/tiktok-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/tiktok/tiktok-followers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/tiktok/tiktok-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/tiktok/tiktok-reports/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-flag mr-2"></i> Жалобы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-flag mr-2"></i> Жалобы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1656,43 +1656,43 @@
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/odnoklassniki-group/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Участники в группу                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Участники в группу                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/odnoklassniki-friends/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Заявки в друзья                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Заявки в друзья                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/odnoklassniki-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/odnoklassniki-polls-contests/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-bullhorn mr-2"></i> Опросы и конкурсы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-bullhorn mr-2"></i> Опросы и конкурсы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/odnoklassniki-repost/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-share-alt mr-2"></i> Репосты                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-share-alt mr-2"></i> Репосты                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/odnoklassniki-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> Под ключ                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> Под ключ                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/odnoklassniki/ok-social-signals/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-signal-stream mr-2"></i> Социальные сигналы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-signal-stream mr-2"></i> Социальные сигналы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1722,25 +1722,25 @@
 
                                     <li class="nav-item">
                                         <a href="/twitch/twitch-subscribers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitch/twitch-channel-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitch/twitch-live-broadcast/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-podcast mr-2"></i> Трансляция                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-podcast mr-2"></i> Трансляция                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitch/twitch-followers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-user-plus mr-2"></i> Фолловеры                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-user-plus mr-2"></i> Фолловеры                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1770,13 +1770,13 @@
 
                                     <li class="nav-item">
                                         <a href="/pinterest/followers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/pinterest/social-signals/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-signal-stream mr-2"></i> Социальные сигналы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-signal-stream mr-2"></i> Социальные сигналы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1810,73 +1810,73 @@
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-subscribers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-subscribers-friends/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Заявки в друзья                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Заявки в друзья                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-repost/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-share-alt mr-2"></i> Репосты                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-share-alt mr-2"></i> Репосты                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-comments/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-comments-alt mr-2"></i> Комментарии                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-comments-alt mr-2"></i> Комментарии                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-reports/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-flag mr-2"></i> Жалобы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-flag mr-2"></i> Жалобы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-poll-vote/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-star mr-2"></i> Опросы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-star mr-2"></i> Опросы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-activ-statistics/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-chart-line mr-2"></i> Активность                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-chart-line mr-2"></i> Активность                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-pack/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-sync mr-2"></i> Подписка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-sync mr-2"></i> Подписка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vk-plays/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-list-music mr-2"></i> Прослушивание                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-list-music mr-2"></i> Прослушивание                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vkontakte-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> VIP раскрутка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> VIP раскрутка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/vkontakte/vk-pack/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-box-full mr-2"></i> Наборы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-box-full mr-2"></i> Наборы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1904,55 +1904,55 @@
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-subscribers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики на канал                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики на канал                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-groupmember/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-user-plus mr-2"></i> Участники в чат                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-user-plus mr-2"></i> Участники в чат                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-postviews/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры записей                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры записей                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/polls/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-star mr-2"></i> Опросы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-star mr-2"></i> Опросы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/reaktsii/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-star mr-2"></i> Реакции                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-star mr-2"></i> Реакции                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> VIP раскрутка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> VIP раскрутка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-verification/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-badge-check mr-2"></i> Верификация                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-badge-check mr-2"></i> Верификация                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-reports/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-flag mr-2"></i> Жалобы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-flag mr-2"></i> Жалобы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/telegram/telegram-pack/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-box-full mr-2"></i> Наборы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-box-full mr-2"></i> Наборы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -1980,55 +1980,55 @@
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-activ-statistics/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-chart-line mr-2"></i> Активность                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-chart-line mr-2"></i> Активность                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-comments/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-comments-alt mr-2"></i> Комментарии                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-comments-alt mr-2"></i> Комментарии                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-video-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры видео                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры видео                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/fb-social-signals/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-signal-stream mr-2"></i> Социальные сигналы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-signal-stream mr-2"></i> Социальные сигналы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-fanpage-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-user-plus mr-2"></i> Подписчики на FanPage                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-user-plus mr-2"></i> Подписчики на FanPage                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-post-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-heart mr-2"></i> Лайки на посты                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-heart mr-2"></i> Лайки на посты                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-group/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Участники в группу                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Участники в группу                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-subscribers-friends/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Заявки в друзья                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Заявки в друзья                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/facebook/facebook-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> VIP раскрутка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> VIP раскрутка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2056,43 +2056,43 @@
 
                                     <li class="nav-item">
                                         <a href="/itunes/amazon_music/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-itunes-note mr-2"></i> Amazon Music                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-itunes-note mr-2"></i> Amazon Music                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/itunes/applemusic/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-fab_itunes-note mr-2"></i> Apple Music                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-fab_itunes-note mr-2"></i> Apple Music                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/itunes/boom/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-signal-alt mr-2"></i> Boom                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-signal-alt mr-2"></i> Boom                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/itunes/shazam/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-microphone mr-2"></i> Shazam                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-microphone mr-2"></i> Shazam                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/itunes/soundcloud/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-fab_soundcloud mr-2"></i> SoundCloud                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-fab_soundcloud mr-2"></i> SoundCloud                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/itunes/vkmusic/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-list-music mr-2"></i> ВК музыка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-list-music mr-2"></i> ВК музыка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/itunes/itunes-top-trending/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-fab_itunes mr-2"></i> ТОП чарты iTunes                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-fab_itunes mr-2"></i> ТОП чарты iTunes                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2120,37 +2120,37 @@
 
                                     <li class="nav-item">
                                         <a href="/spotify/spotify-album/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-signal-alt mr-2"></i> Альбомы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-signal-alt mr-2"></i> Альбомы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/spotify/spotify-pack/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-box-full mr-2"></i> Наборы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-box-full mr-2"></i> Наборы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/spotify/spotify-playlist/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-list-music mr-2"></i> Плейлисты                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-list-music mr-2"></i> Плейлисты                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/spotify/spotify-subscription/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-chart-line mr-2"></i> Подписки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-chart-line mr-2"></i> Подписки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/spotify/spotify-plays/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-music-alt mr-2"></i> Синглы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-music-alt mr-2"></i> Синглы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/spotify/spotify-followers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2182,91 +2182,91 @@
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-subscribers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-video-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры с сайтов                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры с сайтов                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-retention-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-signal-alt mr-2"></i> Просмотры с удержанием                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-signal-alt mr-2"></i> Просмотры с удержанием                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-geo-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-globe-europe mr-2"></i> Просмотры по странам                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-globe-europe mr-2"></i> Просмотры по странам                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-advertising-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-ad mr-2"></i> Просмотры с рекламы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-ad mr-2"></i> Просмотры с рекламы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-dislikes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-down mr-2"></i> Дизлайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-down mr-2"></i> Дизлайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-reports/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-flag mr-2"></i> Жалобы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-flag mr-2"></i> Жалобы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-comments/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-comments-alt mr-2"></i> Комментарии                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-comments-alt mr-2"></i> Комментарии                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-repost/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-share-alt mr-2"></i> Репосты                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-share-alt mr-2"></i> Репосты                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-live-broadcast/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-podcast mr-2"></i> Трансляция                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-podcast mr-2"></i> Трансляция                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-pack/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-box-full mr-2"></i> Наборы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-box-full mr-2"></i> Наборы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-top-trending/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-star mr-2"></i> Вывод в тренды                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-star mr-2"></i> Вывод в тренды                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-watchtime-video/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-hour mr-2"></i> Часы просмотров                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-hour mr-2"></i> Часы просмотров                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/youtube/youtube-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> VIP раскрутка                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> VIP раскрутка                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2292,19 +2292,19 @@
 
                                     <li class="nav-item">
                                         <a href="/rutube/rutube-subscribers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/rutube/rutube-video-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-eye mr-2"></i> Просмотры                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-eye mr-2"></i> Просмотры                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/rutube/rutube-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2330,31 +2330,31 @@
 
                                     <li class="nav-item">
                                         <a href="/twitter/twitter-video-views/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-play mr-2"></i> Видео                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-play mr-2"></i> Видео                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitter/twitter-likes/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-thumbs-up mr-2"></i> Лайки                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-thumbs-up mr-2"></i> Лайки                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitter/twitter-media-piar/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-key mr-2"></i> Под ключ                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-key mr-2"></i> Под ключ                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitter/twitter-retweets/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-share-alt mr-2"></i> Репосты                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-share-alt mr-2"></i> Репосты                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/twitter/twitter-subscribers/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-users mr-2"></i> Подписчики                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-users mr-2"></i> Подписчики                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2380,7 +2380,7 @@
 
                                     <li class="nav-item">
                                         <a href="/apps/apps-install/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-cloud-download mr-2"></i> Установка приложений                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-cloud-download mr-2"></i> Установка приложений                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2406,25 +2406,25 @@
 
                                     <li class="nav-item">
                                         <a href="/website/smi-wikipedia/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-fab_wikipedia-w mr-2"></i> Википедия                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-fab_wikipedia-w mr-2"></i> Википедия                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/website/website-contextual/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-Новые mr-2"></i> Контекстная реклама                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-Новые mr-2"></i> Контекстная реклама                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/website/website-articles/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-newspaper mr-2"></i> Пресс-релизы                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-newspaper mr-2"></i> Пресс-релизы                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="/website/website-creation/" class="nav-link d-flex aline-items-center px-0">
-                                            <i class="far fa-Новые mr-2"></i> Создание сайта                                    <i class="far fa-angle-right ml-auto"></i>
+                                            <i class="fas fa-Новые mr-2"></i> Создание сайта                                    <i class="fas fa-angle-right ml-auto"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -2528,7 +2528,7 @@
                     <div class="col-lg-6 text-center  order-1 order-lg-2">
                         <picture>
                             <source srcset="/assets/img/pages/newland/prom-keys.webp" type="image/webp">
-                            <img alt="Раскрутка в соцсетях под ключ" class="img-fluid mb-3 mb-lg-0" loading="lazy" src="/assets/img/pages/newland/prom-keys.png">
+                            <img alt="Раскрутка в соцсетях под ключ" class="img-fluid mb-3 mb-lg-0" loading="lazy" src="@/resources/assets/img/pages/newland/prom-keys.png">
                         </picture>
 
                     </div>
@@ -2543,7 +2543,7 @@
                     <div class="col-lg-6 text-center">
                         <picture>
                             <source srcset="/assets/img/pages/newland/ico-smm.webp" type="image/webp">
-                            <img alt="Криптовалютный токен SMOCoin" class="img-fluid mb-3 mb-lg-0" loading="lazy" src="/assets/img/pages/newland/ico-smm.png">
+                            <img alt="Криптовалютный токен SMOCoin" class="img-fluid mb-3 mb-lg-0" loading="lazy" src="@/resources/assets/img/pages/newland/ico-smm.png">
                         </picture>
                     </div>
                     <div class="col-lg-6">
@@ -2611,7 +2611,7 @@
                     <div class="col-lg-6 text-center">
                         <picture>
                             <source srcset="/assets/img/pages/newland/uhero-two.webp" type="image/webp">
-                            <img alt="Партнёрская программа" class="img-fluid w-75 mb-4 mb-lg-0" loading="lazy" src="/assets/img/pages/newland/uhero-two.png">
+                            <img alt="Партнёрская программа" class="img-fluid w-75 mb-4 mb-lg-0" loading="lazy" src="@/resources/assets/img/pages/newland/uhero-two.png">
                         </picture>
                     </div>
                     <div class="col-lg-6">
@@ -2871,7 +2871,7 @@
                     <div class="col-lg-6 text-center order-1 order-lg-2">
                         <picture>
                             <source srcset="/assets/img/pages/newland/feedback.webp" type="image/webp">
-                            <img alt="Отзывы о сайте SMOService" class="img-fluid" loading="lazy" src="/assets/img/pages/newland/feedback.png">
+                            <img alt="Отзывы о сайте SMOService" class="img-fluid" loading="lazy" src="@/resources/assets/img/pages/newland/feedback.png">
                         </picture>
                     </div>
                 </div>
@@ -2958,7 +2958,7 @@
                     <p class="copyright">
                         СМОСЕРВИС © 2013-2022	</p>
                     <div class="count mt-3">
-                        <img alt="Защита информации SSL" src="/img/secured.png" title="Защита информации SSL"> <img alt="Установлен SSL сертификат" src="/flatdesign/comodo-secure.png" title="Установлен SSL сертификат">
+                        <img alt="Защита информации SSL" src="{{ Vite::asset('resources/assets/img/secured.png') }}" title="Защита информации SSL"> <img alt="Установлен SSL сертификат" src="{{ Vite::asset('resources/assets/img/comodo-secure.png') }}" title="Установлен SSL сертификат">
                     </div>
                 </div>
                 <br>
