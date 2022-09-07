@@ -1,5 +1,7 @@
 import './bootstrap';
 
+import 'tw-elements/dist/js/index.min'
+
 import Alpine from 'alpinejs';
 
 window.Alpine = Alpine;

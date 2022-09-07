@@ -18,6 +18,9 @@ return new class extends Migration
             $table->timestamps();
 
             $table->string('name')->index();
+            $table->string('slug')->index();
+            $table->string('icon')->nullable();
+            $table->integer('sort')->default(0);
 
             $table->unsignedBigInteger('category_id')->nullable();
             $table->foreign('category_id')->references('id')->on('categories')->cascadeOnUpdate()->nullOnDelete();

@@ -33,6 +33,8 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --fa-style-family-classic: 'FontAwesome';
+    --fa-font-regular: normal 400 1em/1 'FontAwesome';
 }
 
 *,
@@ -1905,7 +1907,7 @@ input[type="button"].btn-block {
 
 .dropdown-toggle::after {
     display: inline-block;
-    font-family: 'Font Awesome 5 Pro';
+    font-family: var(--fa-style-family-classic);
     font-weight: 300;
     content: '\f107';
     margin-left: 5px;

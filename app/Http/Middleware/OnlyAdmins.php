@@ -17,10 +17,14 @@ class OnlyAdmins
      */
     public function handle(Request $request, Closure $next)
     {
-        if(Auth::check() && Auth::user()->is_admin) {
-            return $next($request);
+        if(Auth::check()) {
+            if (Auth::user()->is_admin) {
+                return $next($request);
+            } else {
+                return redirect('/noadminpage_need_to_fix');
+            }
         }
 
-        abort(403, 'Access denied');
+        return redirect('login');
     }
 }

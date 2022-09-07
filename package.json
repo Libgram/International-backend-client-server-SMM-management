@@ -1,8 +1,9 @@
 {
     "private": true,
     "scripts": {
-        "dev": "vite",
-        "build": "vite build"
+        "dev": "vite build --minify false",
+        "build": "vite build",
+        "watch": "vite build --watch --minify false"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
@@ -19,6 +20,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^6.2.0",
-        "@fortawesome/vue-fontawesome": "^3.0.1"
+        "@fortawesome/vue-fontawesome": "^3.0.1",
+        "tw-elements": "^1.0.0-alpha12"
     }
 }
