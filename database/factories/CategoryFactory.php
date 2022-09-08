@@ -31,19 +31,20 @@ class CategoryFactory extends Factory
 
         $usingParent = Category::count() ? Category::query()->whereNull('category_id')->pluck('id')->random() : null;
 
-        if ($usingParent)
-        {
+        if ($usingParent) {
             $fakerSubCategory = \Faker\Factory::create();
             $fakerSubCategory->addProvider(new SubCategoryProvider($faker));
             $name = $fakerSubCategory->word();
         }
 
         return [
-            'name' => $name,
-            'slug' => strtolower(Str::slug($name)),
-            'icon' => $icon,
-            'category_id' => $usingParent,
-            'sort'=> (new \Faker\Generator())->numberBetween(100, 500),
+            'name'             => ['en' => $name, 'ru' => $name],
+            'meta_title'       => ['en' => $name, 'ru' => $name],
+            'meta_description' => ['en' => $this->faker->text(), 'ru' => $this->faker->text()],
+            'slug'             => strtolower(Str::slug($name)),
+            'icon'             => $icon,
+            'category_id'      => $usingParent,
+            'sort'             => (new \Faker\Generator())->numberBetween(100, 500),
         ];
     }
 }

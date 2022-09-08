@@ -17,7 +17,9 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
 
-            $table->string('name')->index();
+            $table->json('name');
+            $table->json('meta_title');
+            $table->json('meta_description');
             $table->string('slug')->index();
             $table->string('icon')->nullable();
             $table->integer('sort')->default(0);

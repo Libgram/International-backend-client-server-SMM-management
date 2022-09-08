@@ -16,11 +16,13 @@ return new class extends Migration {
             $table->id();
             $table->timestamps();
 
-            $table->string('name')->index();
+            $table->json('name');
+            $table->json('meta_title');
+            $table->json('meta_description');
             $table->string('slug')->index();
             $table->json('images')->nullable();
-            $table->string('short_description')->nullable();
-            $table->text('description')->nullable();
+            $table->json('short_description')->nullable();
+            $table->json('description')->nullable();
             $table->decimal('price', 20, 8);
             $table->decimal('old_price', 20, 8);
         });

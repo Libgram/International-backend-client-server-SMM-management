@@ -24,6 +24,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static Builder|ProductCategory whereProductId($value)
  * @method static Builder|ProductCategory whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \App\Models\Category|null $category
+ * @property-read \App\Models\Product|null $product
  */
 class ProductCategory extends Model
 {

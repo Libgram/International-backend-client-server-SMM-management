@@ -15,7 +15,8 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'App name'),
+    'description' => env('APP_DESCRIPTION', 'App description'),
 
     /*
     |--------------------------------------------------------------------------
@@ -214,5 +215,7 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
+
+    'locales' => ['en', 'ru'],
 
 ];

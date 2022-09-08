@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\AsArrayObject;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\Translatable\HasTranslations;
 
 /**
  * App\Models\Product
@@ -34,12 +35,24 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder|Product whereSlug($value)
  * @method static Builder|Product whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property mixed $meta_title
+ * @property mixed $meta_description
+ * @method static Builder|Product whereMetaDescription($value)
+ * @method static Builder|Product whereMetaTitle($value)
  */
 class Product extends Model
 {
-    use HasFactory;
+    use HasFactory, HasTranslations;
+
+    public array $translatable = ['name', 'meta_title', 'meta_description', 'short_description', 'description'];
 
     protected $casts = [
         'images'=>AsArrayObject::class,
     ];
+
+    public function getRouteKeyName(): string
+    {
+        return 'slug';
+    }
+
 }

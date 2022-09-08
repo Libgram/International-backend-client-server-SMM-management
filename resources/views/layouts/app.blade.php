@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    {!! SEOMeta::generate() !!}
+    {!! OpenGraph::generate() !!}
+    {!! Twitter::generate() !!}
+    {!! JsonLd::generate() !!}
+
+    <!-- OR -->
+    {!! SEO::generate() !!}
+
+    <!-- MINIFIED -->
+    {!! SEO::generate(true) !!}
+
+    <!-- LUMEN -->
+    {!! app('seotools')->generate() !!}
+
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
@@ -20,6 +34,8 @@
     <nav class="nav-top">
         <div class="container d-flex">
             <ul class="nav-top__list">
+                <li class="nav-top__item d-none d-lg-block"><a href="{{ route('changeLanguage', ['lang'=>'ru']) }}"  class="nav-top__link">ru</a></li>
+                <li class="nav-top__item d-none d-lg-block"><a href="{{ route('changeLanguage', ['lang'=>'en']) }}"  class="nav-top__link">en</a></li>
                 <li class="nav-top__item d-none d-lg-block"><a href="https://t.me/smoapp_bot/" target="_blank" class="nav-top__link">Телеграм бот</a></li>
                 <li class="nav-top__item d-none d-lg-block"><a href="https://play.google.com/store/apps/details?id=com.mediaboss.smoservice" target="_blank" class="nav-top__link">Андроид приложение</a></li>
                 <li class="nav-top__item d-none d-lg-block"><a href="/pages/affiliate_program/" class="nav-top__link">Партнерская программа</a></li>

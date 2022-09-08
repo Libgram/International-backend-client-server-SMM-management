@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\Public\CategoryController;
 use App\Http\Controllers\Public\IndexController;
+use App\Http\Controllers\Public\LanguageController;
 use Illuminate\Support\Facades\Route;
 
 use Laravel\Fortify\Features;
@@ -34,6 +36,14 @@ use Laravel\Fortify\Http\Controllers\VerifyEmailController;
 */
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
+
+Route::get('/lang/{lang}', [LanguageController::class, 'change'])->name('changeLanguage');
+
+
+/* products section */
+Route::get('/{category}', [CategoryController::class, 'index'])->name('category');
+Route::get('/{category}/{subcategory}', [CategoryController::class, 'index'])->name('sub_category');
+Route::get('/{category}/{subcategory}/{product}', [CategoryController::class, 'index'])->name('product');
 
 
 /* Fortify routes */
