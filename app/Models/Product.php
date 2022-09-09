@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\AsArrayObject;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Translatable\HasTranslations;
 
 /**
@@ -39,10 +41,16 @@ use Spatie\Translatable\HasTranslations;
  * @property mixed $meta_description
  * @method static Builder|Product whereMetaDescription($value)
  * @method static Builder|Product whereMetaTitle($value)
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Category[] $inCategories
+ * @property-read int|null $in_categories_count
+ * @method static \Database\Factories\ProductFactory factory(...$parameters)
+ * @method static \Illuminate\Database\Query\Builder|Product onlyTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Product withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Product withoutTrashed()
  */
 class Product extends Model
 {
-    use HasFactory, HasTranslations;
+    use HasFactory, HasTranslations, SoftDeletes;
 
     public array $translatable = ['name', 'meta_title', 'meta_description', 'short_description', 'description'];
 
@@ -53,6 +61,11 @@ class Product extends Model
     public function getRouteKeyName(): string
     {
         return 'slug';
+    }
+
+    public function inCategories(): HasManyThrough
+    {
+        return $this->hasManyThrough(Category::class, ProductCategory::class);
     }
 
 }

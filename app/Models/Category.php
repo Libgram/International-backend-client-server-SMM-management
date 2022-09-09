@@ -6,7 +6,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Spatie\Translatable\HasTranslations;
 
 /**
@@ -40,6 +42,10 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder|Category whereMetaTitle($value)
  * @method static Builder|Category whereSlug($value)
  * @method static Builder|Category whereSort($value)
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Product[] $products
+ * @property-read int|null $products_count
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Product[] $subProducts
+ * @property-read int|null $sub_products_count
  */
 class Category extends Model
 {
@@ -60,5 +66,15 @@ class Category extends Model
     public function childCategories(): HasMany
     {
         return $this->hasMany(Category::class);
+    }
+
+    public function subProducts(): HasManyThrough
+    {
+        return $this->hasManyThrough(Product::class, self::class, 'category_id', 'category_id');
+    }
+
+    public function products(): BelongsToMany
+    {
+        return $this->belongsToMany(Product::class, ProductCategory::class, 'category_id', 'product_id');
     }
 }
