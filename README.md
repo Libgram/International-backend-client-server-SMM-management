@@ -1,11 +1,64 @@
-## Install
 
-```
-git remote add origin git@github.com:Libgram/libgram.git
-git pull
+# International backend & client server for SMM CRM
+
+Проект "International-backend-client-server-CRM-management" представляет собой инновационную систему управления отношениями с клиентами (CRM), созданную с акцентом на дизайн. Разработанный на фреймворке Laravel, этот проект обеспечивает эффективную координацию между командами, клиентами и backend-сервисами, улучшая бизнес-процессы и клиентский опыт.
+
+Особенностью данной CRM является ее интеграция с платформами [SMM Panel](https://smmpanel.ru) и [SMO Fast](https://smofast.com) через их API, что позволяет расширить функциональные возможности системы.
+
+## Дизайн и демонстрация
+
+Вы можете ознакомиться с дизайнерскими решениями проекта на странице автора в [Figma](https://www.figma.com/@toncoin). Полноценный обзор и демонстрацию возможностей CRM доступны на сайте [Libgram](https://libgram.com/).
+
+## Участники проекта
+
+- [@yrdevel](https://github.com/yrdevel)
+- [@DeFiTON](https://github.com/DeFiTON)
+
+## Используемые технологии
+
+- **Blade**: 53.0%
+- **PHP**: 30.2%
+- **CSS**: 16.6%
+- **JavaScript**: 0.2%
+
+Blade - это шаблонизатор Laravel, PHP - основной язык программирования, использованный в проекте. CSS и JavaScript используются для оформления и клиентских скриптов соответственно.
+
+## Установка
+
+Для клонирования и запуска этого проекта локально, выполните следующие команды:
+
+```bash
+# Клонировать репозиторий
+git remote add origin git@github.com:Libgram/International-backend-client-server-CRM-management.git
+git pull origin master
+
+# Установить зависимости PHP
 composer install
+
+# Установить Node модули
 npm install
+
+# Сборка фронтенда
 npm run build
+
+# Применить миграции базы данных
 php artisan migrate
+
+# Наполнить базу данных начальными данными
 php artisan db:seed
 ```
+
+## Использование
+
+После установки и настройки, вы можете запустить встроенный сервер Laravel, выполнив:
+
+```bash
+php artisan serve
+```
+
+Теперь вы можете перейти к `http://localhost:8000` в вашем браузере и начать использовать приложение.
+
+## Вклад
+
+Мы рады новым идеям и улучшениям от всех участников. Создавайте issues, отправляйте pull requests, и помогайте улучшать проект.
+
