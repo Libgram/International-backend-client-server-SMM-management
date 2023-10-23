@@ -1,0 +1,24 @@
+# Файл конфигурации для Dependabot
+version: 2
+updates:
+
+  # Обновление зависимостей Composer (PHP)
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      # Здесь можно указать исключения для определенных зависимостей, например:
+      # - dependency-name: "laravel/framework"
+      #   versions: ["8.x.x"]
+
+  # Обновление зависимостей npm (JavaScript)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      # Аналогично, здесь можно указать исключения для определенных зависимостей
+
+# Приведенные выше настройки устанавливают ежедневный график проверки обновлений.
+# Вы можете настроить этот файл в соответствии с требованиями вашего проекта, добавив дополнительные параметры, такие как assignees, labels и т.д.
